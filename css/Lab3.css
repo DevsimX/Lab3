@@ -1,0 +1,148 @@
+html , body , div , span , h1 , h2 , h3 , h4 , h5 , h6 , p , table{margin: 0;padding: 0;border: 0;font-size: 100%;vertical-align: baseline;}
+body{
+    margin-top: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #E8EAF6;
+    min-width: 600px;}
+nav{
+    background-color: #1A237E;
+    border: #1A237E 1em solid
+}
+nav h1 , span{
+    color: white;
+}
+h1{
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+.Logo span{
+    font-family: Serif,sans-serif,"Times New Roman";
+    font-style: italic;
+}
+.connect{
+    background-color: #3F51B5;
+    padding-bottom:0.3em;
+    padding-top: 0.3em;
+    padding-left: 0.7em;
+}
+.connect a{
+    font-family: sans-serif;
+}
+.connect a:link,a:visited{
+    padding: 0.3em;
+}
+.connect a:hover{
+    color: white;
+    background-color: #F50057;
+}
+a{
+    color: #00B0FF
+}
+article{
+    margin-top: 0.5em;
+    border: solid white 0.5em;
+    background-color: white;
+    margin-bottom: 0.5em;
+}
+.h{
+    color: white;
+    font-family: sans-serif;
+    padding: 1em;
+    background-color: #7986CE;
+}
+article figure{
+    margin: 0;
+}
+figure img{
+    height: 100%;
+    width: 100%;
+}
+article img{
+    vertical-align: middle;
+}
+article figcaption{
+    color: #7990A3;
+    background-color: #C5CAE9;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+}
+article figcaption i{
+    line-height: 0.9em;
+    display:inline-block;
+}
+article div{
+    padding-left: 1em;
+    padding-top: 0.5em;
+    padding-right: 1em;
+}
+article div a{
+    font-weight: bold;
+}
+.table{
+    padding: 0;
+    margin: 0;
+    display: -webkit-flex;
+    display: flex;
+    direction: rtl
+}
+table{
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.5em;
+}
+.first{
+    box-sizing:border-box;
+    border: solid 1px #C5CAE9;
+}
+.second{
+    margin-top: 0.5em;
+    border: solid 1px #C5CAE9;
+}
+.third{
+    margin-top: 0.5em;
+    border: solid 1px #C5CAE9;
+}
+.second img{
+    display: inline-block;
+}
+.third h3{
+    color: #C5CAE9
+}
+.third time{
+    color: #F5A2C1
+}
+footer{
+    background-color: #1A237E
+}
+footer p{
+    padding-top: 1.3em;
+    padding-left: 1em;
+    font-family: sans-serif
+}
+footer div{
+    color: white;
+    padding-left: 1em;
+    padding-bottom: 1.3em;
+    padding-top: 0.6em;
+    font-style: italic;
+    font-family: sans-serif
+}
+.third h3{
+    padding-left: 1em;
+    padding-top: 0.5em;
+}
+.third p{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+}
+hr{
+    margin-left: 1em;
+    -webkit-margin-after: 0;
+    -webkit-margin-before: 0;
+}
+.lasthr{
+    margin-bottom: 1em;
+}
